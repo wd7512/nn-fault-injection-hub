@@ -1,0 +1,7 @@
+https://github.com/ma3mool/goldeneye
+
+https://github.com/DependableSystemsLab/LLTFI
+
+https://github.com/yuli-yl/fault-injection-on-DNN-Pytorch
+
+https://github.com/cad-polito-it/SFIadvancedmodels
