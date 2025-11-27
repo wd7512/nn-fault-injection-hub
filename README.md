@@ -13,6 +13,18 @@ A curated index of fault-injection tools and libraries for neural networks.
 | [Reliable ReLU Toolbox](https://github.com/HERO-MDH/reliable-relu-toolbox)   | ✅       | ❌          |               | Enhances DNN resiliency against soft errors by generating reliable ReLU activation functions; includes fault injection adapted from PyTorchFI; supports CIFAR-10, CIFAR-100, ImageNet |
 | [SEU Injection Framework](https://github.com/wd7512/seu-injection-framework) | ✅       | ❌          |               | Framework for developing robust ML models in harsh environments; Single Event Upset (SEU) injection for reliability testing                                                           |
 
+## Project Structure
+
+frameworks/
+
+- example_fault_injection_tool/
+
+  - `implementation.py` : performs FI on `simpleNN`
+  - `overhead_tests.py` : calculates overhead for FI+inference vs inference
+  - `overhead_results.json`: results of overhead test
+
+- `networks.py`: a script to hold example networks for testing (tf and pytorch), including `simpleNN`
+
 ## Contribute
 
 Submit a PR to add new FI tools or update entries.
