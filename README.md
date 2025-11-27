@@ -1,6 +1,6 @@
 # nn-fault-injection-hub
 
-A curated index of fault-injection tools and libraries for neural networks. (CNN, DNN, etc..)
+A curated index of fault injection tools and libraries for neural networks. (CNN, DNN, etc..)
 
 | Name                                                                         | PyTorch? | TensorFlow? | Example Added | Features                                                                                                                                                                              |
 | ---------------------------------------------------------------------------- | -------- | ----------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
